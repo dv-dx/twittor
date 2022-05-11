@@ -1,6 +1,6 @@
 
 const url = window.location.href;
-const swLocation = 'twittor/sw.js';
+const swLocation = '/twittor/sw.js';
 
 if(navigator.serviceWorker){
 
