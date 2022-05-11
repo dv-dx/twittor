@@ -1,14 +1,7 @@
 
-const url = window.location.href;
-const swLocation = 'twittor/sw.js';
 
 if(navigator.serviceWorker){
-
-    if(url.includes('localhost')){
-        swLocation = '/sw.js';
-    }
-
-    navigator.serviceWorker.register(swLocation);
+    navigator.serviceWorker.register('sw.js');
 }
 
 // Referencias de jQuery
